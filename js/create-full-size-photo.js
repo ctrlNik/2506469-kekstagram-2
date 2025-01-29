@@ -4,9 +4,7 @@ const bigPictureElement = document.querySelector('.big-picture__preview');
 const image = bigPictureElement.querySelector('img');
 const likesCountElement = bigPictureElement.querySelector('.likes-count');
 const socialCommentTotalElement = bigPictureElement.querySelector('.social__comment-total-count');
-const socialCommentsElement = bigPictureElement.querySelector('.social__comments');
 const socialCaptionElement = bigPictureElement.querySelector('.social__caption');
-const commentsLoaderElement = bigPictureElement.querySelector('.social__comments-loader');
 const socialCommentShownElement = bigPictureElement.querySelector('.social__comment-shown-count');
 
 const createFullSizePhoto = ({ url, description, likes, comment }) => {

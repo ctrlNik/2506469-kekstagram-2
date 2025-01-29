@@ -8,7 +8,7 @@ const closeOverlay = document.querySelector('#upload-cancel');
 const previewElement = document.querySelector('.img-upload__preview');
 const previewImage = previewElement.querySelector('img');
 
-const munipulationOverlay = () => {
+const editPhotoModal = () => {
   inputElement.addEventListener('change', (evt) => {
     const file = evt.target.files[0];
     if (file) {
@@ -27,7 +27,7 @@ const munipulationOverlay = () => {
   });
 }
 
-const closeMunipilationOverlay = () => {
+const closePhotoModal = () => {
   closeOverlay.addEventListener('click', () => {
     body.classList.remove('modal-open');
     overlayElement.classList.add('hidden');
@@ -56,4 +56,4 @@ const postForm = () => {
   });
 }
 
-export { munipulationOverlay, closeMunipilationOverlay, postForm};
+export { editPhotoModal, closePhotoModal, postForm};
