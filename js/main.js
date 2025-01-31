@@ -5,7 +5,7 @@ import { openModal } from './manipulation-modal.js';
 import { editPhotoModal, configureFormSubmit } from './edit-photo-modal.js';
 import { addUserPhoto } from './add-user-photo.js';
 import { showLoadErrorMessage } from './util.js';
-import { showFilters } from './filters.js';
+import { showFilters } from './filter.js';
 
 addUserPhoto();
 editPhotoModal();
